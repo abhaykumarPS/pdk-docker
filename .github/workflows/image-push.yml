@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - new
+      - main
     tags:
       - '[0-9]+.*'
 jobs:
