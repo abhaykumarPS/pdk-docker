@@ -3,8 +3,6 @@ name: image-push
 on:
   push:
     branches:
-      - main
-      - stable
       - new
     tags:
       - '[0-9]+.*'
