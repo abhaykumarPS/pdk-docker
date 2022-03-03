@@ -8,8 +8,7 @@ on:
       - new
     tags:
       - '[0-9]+.*'
-
- jobs:
+jobs:
   build-and-push:
      runs-on: ubuntu-latest 
      steps:
