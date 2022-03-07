@@ -47,7 +47,8 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            abhay900/pdk:latest
+            ${{ secrets.AWS_FORGE_ID }}.dkr.ecr.us-west-2.amazonaws.com/anubis:${{ env.TAG }}
+            abhay900/pdk:${{ env.TAG }}
       -
         name: Image digest
         run: |
