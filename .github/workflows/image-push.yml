@@ -47,7 +47,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            abhay900/pdk:${{ env.TAG }}
+            abhay900/pdk:${ env.TAG }
       -
         name: Image digest
         run: |
