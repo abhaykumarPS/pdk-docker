@@ -47,7 +47,7 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            odidev/pdk:latest
+            abhay900/pdk:latest
       -
         name: Image digest
         run: |
